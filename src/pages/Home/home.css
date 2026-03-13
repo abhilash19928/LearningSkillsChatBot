@@ -1,0 +1,27 @@
+.profile-card {
+  text-align: center;
+  padding: 16px;
+}
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  border: inset 7px darkgrey;
+}
+
+.profile-card .name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 6px 0 0 0; 
+  line-height: 1.1;
+}
+
+.profile-card .role {
+  color: red; 
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.1;
+}
